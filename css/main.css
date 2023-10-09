@@ -2461,7 +2461,7 @@ html.no-csstransitions .hero-content {
 .s-about__section--profile::before {
   content: "";
   display: block;
-  background-color: #b3c2c1;
+  background-color: #f3b6c1;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -2610,7 +2610,7 @@ html.no-csstransitions .hero-content {
 .s-services {
   padding-top: 24rem;
   padding-bottom: 20rem;
-  background-color: #1d1b37;
+  background-color: #a1c2cb;
   position: relative;
 }
 
@@ -2828,7 +2828,7 @@ html.no-csstransitions .hero-content {
 .s-portfolio::before {
   content: "";
   display: block;
-  background-color: #b3c2c1;
+  background-color: #f3b6c1;
   position: absolute;
   top: 0;
   right: 0;
@@ -3291,7 +3291,7 @@ html.no-csstransitions .hero-content {
 .s-footer {
   padding-top: 24rem;
   padding-bottom: 8rem;
-  background-color: #0b0a15;
+  background-color: #a1c2c3;
   position: relative;
 }
 
