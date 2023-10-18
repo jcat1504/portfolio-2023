@@ -1,0 +1,130 @@
+
+
+    <!-- portfolio
+    ================================================== -->
+    <!-- <section id="portfolio" class="s-portfolio target-section">
+        <div class="vert-line"></div>
+
+        <div class="row s-portfolio__header">
+            <div class="column large-6 medium-8 tab-full">
+                <div class="section-intro" data-num="03" data-aos="fade-up">
+                    <h3 class="subhead">Portfolio</h3>
+                    <h1 class="display-1">
+                        Professional and Personal Projects
+                    </h1>
+                </div>
+            </div>
+        </div>  -->
+
+        <!--end header-->
+        <!-- <div class="row s-porfolio__list block-large-1-2 block-tab-full collapse">
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/projects-images/uson.png" title="Uson.com" data-size="1000x700">
+                            <img src="images/portfolio/projects-images/uson.png" 
+                                 srcset="images/portfolio/projects-images/uson.png" alt="Uson website">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Website(Hubspot+Shopify)</div>
+                        <h4 class="folio-item__title">Uson Website</h4>
+                    </div>
+                    <a href="https://uson.com/" title="Project Link" class="folio-item__project-link" target="_blank">Website</a>
+                </div>
+            </div> 
+
+
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/projects-images/koffeekult.png" title="Koffee Kult" data-size="1250x700">
+                            <img src="images/portfolio/projects-images/koffeekult.png" 
+                                 srcset="images/portfolio/projects-images/koffeekult.png 1x" alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">E-Commerce</div>
+                        <h4 class="folio-item__title">Koffee Kult</h4>
+                    </div>
+                    <a href="https://koffee-kultv2.onrender.com/" title="Project Link" class="folio-item__project-link" target="_blank">Demo</a> -->
+                    <!-- <div class="folio-item__caption">
+                        <p>...</p>
+                    </div>
+                </div>
+            </div>   -->
+
+<!-- 
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/projects-images/movie-screenshot.png" title="Gold Movies" data-size="1050x500">
+                            <img src="images/portfolio/projects-images/movie-screenshot.png" 
+                                 srcset="images/portfolio/projects-images/movie-screenshot.png" alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">React and Java Application</div>
+                        <h4 class="folio-item__title">Movie Gold</h4>
+                    </div>
+                    <a href="#" title="Project Link" class="folio-item__project-link"
+                    target="_blank">Demo</a>
+                    <div class="folio-item__caption">
+                        <p>...</p>
+                    `</div>
+                </div>
+            </div>  -->
+
+            <!-- <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/projects-images/BookPilotPage.png" Title="BookPilot" data-size="1050x500">
+                            <img src="images/portfolio/projects-images/BookPilotPage.png" 
+                                 srcset="images/portfolio/projects-images/BookPilotPage.png" alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">React Application</div>
+                        <h4 class="folio-item__title">BookPilot</h4>
+                    </div>
+                    <a href="https://bookpilot.onrender.com/" title="Project Link" class="folio-item__project-link" target="_blank">Demo</a>
+                    <div class="folio-item__caption">
+                        <p>...</p>
+                    </div>
+                </div>
+            </div> 
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/projects-images/superdry-3.png" Title="Superdry" data-size="1050x700">
+                            <img src="images/portfolio/projects-images/superdry-3.png" 
+                                 srcset="images/portfolio/projects-images/superdry-3.png" alt="">
+                        </a>
+                    </div> -->
+                    
+            <!-- <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/projects-images/signin.png" title="Smart Brain" data-size="1050x700">
+                            <img src="images/portfolio/projects-images/signin.png" 
+                                 srcset="images/portfolio/projects-images/signin.png" alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Frontend Design</div>
+                        <h4 class="folio-item__title">Smart Brain App</h4>
+                    </div>
+                    <a href="https://smart-brain-api-pgj4.onrender.com/" title="Project Link" class="folio-item__project-link" target="_blank">Demo</a>
+                    <div class="folio-item__caption">
+                        <p>...</p>
+                    </div>
+                </div>
+            </div>  -->
+<!-- 
+       </div> 
+
+    </section> 
+                
+           </div>  
+
+        </div>  -->

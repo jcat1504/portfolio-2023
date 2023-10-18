@@ -247,11 +247,11 @@ img {
   margin-top: 20px;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 844px) {
   .project-content-reversed .project-details ul {
     display: block;
   }
-}
+} */
 
 
 .project-content-reversed .project-details ul li {
