@@ -400,9 +400,17 @@ hr {
  * ## Lists
  * ------------------------------------------------------------------- */
  .bullet-points {
+  list-style-type: none;
+  padding-left: 15px;
+ }
+
+ .bullet-points::before {
   content: "▹";
-  position: absolute;
-  left: 0px;
+  display: inline-block;
+  width: 10px; /* Adjust the size of the triangle */
+  height: 10px; /* Adjust the size of the triangle */
+  transform: rotate(45deg); /* Rotate to form a triangle */
+  margin-right: 5px; /* Adjust the spacing between the bullet and text */
   color: #f14764;
  }
 
