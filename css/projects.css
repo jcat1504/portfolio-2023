@@ -191,7 +191,7 @@ img {
   transition: all 0.3s ease;
 }
 
-.project-reversed {
+/* .project-reversed {
   direction: rtl;
   padding-top: 20px;
   margin: 30px;
@@ -300,6 +300,6 @@ img {
 .reversed-list {
   display: flex;
   flex-direction: row;
-}
+} */
 
 /*# sourceMappingURL=projects.css.map */
