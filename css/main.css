@@ -98,6 +98,10 @@ body {
   height: 100%;
 }
 
+* {
+  font-family: 'Gothic A1'
+}
+
 body {
   background: #0b0a15;
   font-family: "Roboto", "Martel", serif;
