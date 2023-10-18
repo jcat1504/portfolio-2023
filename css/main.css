@@ -98,9 +98,12 @@ body {
   height: 100%;
 }
 
+* {
+  font-family: "Roboto";
+}
 body {
   background: #0b0a15;
-  font-family: "Martel", serif;
+  font-family: "Roboto", "Martel", serif;
   font-size: 1.8rem;
   font-style: normal;
   font-weight: normal;
@@ -248,13 +251,13 @@ b {
 
 em,
 i {
-  font-family: "Martel", serif;
+  font-family: "Roboto", "Martel", serif;
   font-style: italic;
 }
 
 strong,
 b {
-  font-family: "Martel", serif;
+  font-family: "Roboto", "Martel", serif;
   font-weight: 700;
 }
 
@@ -285,7 +288,7 @@ blockquote {
 }
 
 blockquote p {
-  font-family: "Martel", serif;
+  font-family: "Roboto", "Martel", serif;
   font-weight: 400;
   padding: 0;
   font-size: 2.8rem;
@@ -327,7 +330,7 @@ blockquote cite a:visited {
 }
 
 abbr {
-  font-family: "Martel", serif;
+  font-family: "Roboto", "Martel", serif;
   font-weight: 700;
   font-variant: small-caps;
   text-transform: lowercase;
@@ -406,11 +409,8 @@ hr {
 
  .bullet-points::before {
   content: "▹";
-  display: inline-block;
-  width: 10px; /* Adjust the size of the triangle */
-  height: 10px; /* Adjust the size of the triangle */
-  transform: rotate(45deg); /* Rotate to form a triangle */
-  margin-right: 5px; /* Adjust the spacing between the bullet and text */
+  position: absolute;
+  left: 12px;
   color: #f14764;
  }
 
@@ -2521,7 +2521,7 @@ html.no-csstransitions .hero-content {
 }
 
 .position__header h6 {
-  font-family: "Martel", serif;
+  font-family: "Roboto", "Martel", serif;
   line-height: 2.8rem;
   margin-top: 0;
   margin-bottom: .4rem;
