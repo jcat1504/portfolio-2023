@@ -2449,6 +2449,17 @@ html.no-csstransitions .hero-content {
 }
 
 
+/* DISABLE */
+@media (max-width: 768px) {
+  html.ss-preload .hero-content,
+  html.ss-loaded .hero-content,
+  html.no-csstransitions .hero-content {
+    opacity: 1;
+    -webkit-animation: none;
+    animation: none;
+  }
+}
+
 
 /* ===================================================================
  * # about section
