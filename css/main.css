@@ -535,7 +535,7 @@ td:last-child {
 }
 
 .table-responsive {
-  overflow-x: auto;
+  /* overflow-x: auto; */
   -webkit-overflow-scrolling: touch;
 }
 
@@ -2869,7 +2869,7 @@ html.no-csstransitions .hero-content {
 
 .folio-item {
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .folio-item__caption {

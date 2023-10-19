@@ -1,4 +1,4 @@
-/* button {
+button {
   border: 0;
   outline: 0;
   cursor: pointer;
@@ -20,7 +20,7 @@ img {
   width: 85%;
   max-width: 100%;
   vertical-align: middle;
-} */
+}
 
 .project-container {
   max-width: 1000px;
