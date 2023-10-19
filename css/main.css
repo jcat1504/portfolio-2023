@@ -2845,8 +2845,9 @@ html.no-csstransitions .hero-content {
 .s-portfolio {
   padding-top: 24rem;
   padding-bottom: 10rem;
-  background: green;
+  background-color: #539198;
   position: relative;
+  z-index: -2;
 }
 
 .s-portfolio::before {
@@ -2854,10 +2855,10 @@ html.no-csstransitions .hero-content {
   display: block;
   /* background-color: #f3b6c1; */
   position: absolute;
-  /* top: 0;
+  top: 0;
   right: 0;
   bottom: 0;
-  left: 50%; */
+  left: 50%;
 }
 
 /* ------------------------------------------------------------------- 
@@ -3544,6 +3545,7 @@ html.no-csstransitions .hero-content {
 }
 
 
+/*PROJECTS GRID*/
 
 
 button {
@@ -3577,7 +3579,7 @@ img {
 }
 
 .project {
-  margin: 30px;
+  margin: 10px;
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(12, 1fr);
@@ -3734,7 +3736,7 @@ img {
 .project-reversed {
   direction: rtl;
   padding-top: 20px;
-  margin: 30px;
+  /* margin: 10px; */
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(12, 1fr);
