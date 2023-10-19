@@ -100,7 +100,7 @@ body {
 
 
 body {
-  background: #0b0a15;
+  /* background: #0b0a15; */
   font-family: "Roboto", "Martel", serif;
   font-size: 1.8rem;
   font-style: normal;
@@ -2833,21 +2833,21 @@ html.no-csstransitions .hero-content {
  * ------------------------------------------------------------------- */
 .s-portfolio {
   padding-top: 24rem;
-  padding-bottom: 0;
-  /* background: green; */
+  padding-bottom: 10rem;
+  background: green;
   position: relative;
 }
 
-/* .s-portfolio::before {
+.s-portfolio::before {
   content: "";
   display: block;
-  background-color: #f3b6c1;
+  /* background-color: #f3b6c1; */
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 50%;
-} */
+}
 
 /* ------------------------------------------------------------------- 
  * ## portfolio list
