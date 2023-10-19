@@ -101,7 +101,7 @@ body {
 
 body {
   /* background: #0b0a15; */
-  font-family: "Roboto", "Martel", serif;
+  font-family: "Gothic A1", "Calibri", sans-serif;
   font-size: 1.8rem;
   font-style: normal;
   font-weight: normal;
@@ -217,7 +217,7 @@ p img {
 }
 
 p.lead {
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Gothic A1", "Calibri", sans-serif;
   font-weight: 300;
   font-size: 2.4rem;
   line-height: 1.833;
@@ -249,13 +249,13 @@ b {
 
 em,
 i {
-  font-family: "Roboto", "Martel", serif;
+  font-family: "Gothic A1", "Calibri", sans-serif;
   font-style: italic;
 }
 
 strong,
 b {
-  font-family: "Roboto", "Martel", serif;
+  font-family: "Gothic A1", "Calibri", sans-serif;
   font-weight: 700;
 }
 
@@ -402,6 +402,7 @@ hr {
  * ------------------------------------------------------------------- */
  .bullet-points {
   list-style-type: none;
+  padding-left: 1.5rem;
  }
 
  .bullet-points::before {
@@ -429,7 +430,7 @@ ul {
 }
 
 ul li {
-  padding-left: 1.5rem;
+  padding-left: 1rem;
 }
 
 ul ul,
@@ -535,7 +536,7 @@ td:last-child {
 }
 
 .table-responsive {
-  /* overflow-x: auto; */
+  overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
 
@@ -961,7 +962,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Gothic A1", "Calibri", sans-serif;
   font-weight: 600;
   font-size: 1.3rem;
   text-transform: uppercase;
@@ -1503,7 +1504,7 @@ input::-moz-focus-inner {
 
 .section-intro {
   position: relative;
-  margin-bottom: 12rem;
+  margin-bottom: 2rem;
 }
 
 .section-intro .display-1 {
@@ -2472,7 +2473,7 @@ html.no-csstransitions .hero-content {
 }
 
 .s-about .right-vert-line {
-  background-color: #302c59;
+  background-color: #f14764;
 }
 
 .s-about__section--profile {
@@ -2485,7 +2486,7 @@ html.no-csstransitions .hero-content {
 .s-about__section--profile::before {
   content: "";
   display: block;
-  background-color: #f3b6c1;
+  background-color: rgb(83, 145, 152);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -2509,6 +2510,7 @@ html.no-csstransitions .hero-content {
  * ------------------------------------------------------------------- */
 .work-positions {
   margin-top: 2rem;
+  margin-bottom: 40px;
 }
 
 .work-positions .column:nth-child(2n + 1) {
@@ -2530,7 +2532,7 @@ html.no-csstransitions .hero-content {
 }
 
 .position__header h6 {
-  font-family: "Roboto", "Martel", serif;
+  font-family: "Gothic A1", "Calibri", sans-serif;
   line-height: 2.8rem;
   margin-top: 0;
   margin-bottom: .4rem;
@@ -2632,9 +2634,9 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
 .s-services {
-  padding-top: 24rem;
+  padding-top: 20rem;
   padding-bottom: 20rem;
-  background-color: #a1c2cb;
+  background-color: #539198;
   position: relative;
 }
 
@@ -2845,7 +2847,7 @@ html.no-csstransitions .hero-content {
 .s-portfolio {
   padding-top: 24rem;
   padding-bottom: 10rem;
-  background-color: #539198;
+  background-color: #1c3234;
   position: relative;
   z-index: -2;
 }
@@ -2870,7 +2872,7 @@ html.no-csstransitions .hero-content {
 
 .folio-item {
   position: relative;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .folio-item__caption {
@@ -3314,9 +3316,9 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
 .s-footer {
-  padding-top: 24rem;
+  padding-top: 10rem;
   padding-bottom: 8rem;
-  background-color: #a1c2c3;
+  background-color: #1c3234;
   position: relative;
 }
 
@@ -3639,12 +3641,26 @@ img {
 }
 
 .project-img {
-  position: relative;
   z-index: -1;
+  position: relative;
   border-radius: 2px;
   grid-column: 6/-1;
   grid-row: 1/-1;
 }
+.project-img a {
+  display: block; /* Ensure the anchor link takes up the full space of the parent div */
+  width: 100%; /* Make the anchor link the same width as the parent div */
+  height: 100%; /* Make the anchor link the same height as the parent div */
+  position: relative;
+  z-index: 1;
+}
+.project-img img {
+  border-radius: 2px;
+  width: 100%; /* Make the image take up the full width of the parent div */
+  height: 100%; /* Make the image take up the full height of the parent div */
+  position: relative;
+}
+
  @media screen and (max-width: 768px) {
   .project-img {
     height: 100%;
@@ -3754,6 +3770,7 @@ img {
   position: relative;
   grid-column: 1/7;
   grid-row: 1/-1;
+  /* overflow: hidden; */
 }
 @media (max-width: 600px) {
   .project-content-reversed {
@@ -3844,4 +3861,8 @@ img {
   flex-direction: row;
 } 
 
+/* .lang-list {
+  margin-left: 20px;
+  max-width: 50%;
+} */
 /*# sourceMappingURL=projects.css.map */
