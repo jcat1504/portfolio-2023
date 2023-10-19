@@ -22,7 +22,7 @@ img {
   vertical-align: middle;
 }
 
-.project-container {
+/* .project-container {
   max-width: 1000px;
   margin: 50px auto;
   margin-top: 0px;
@@ -35,7 +35,7 @@ img {
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(6, 1fr);
   align-items: center;
-}
+} */
 /* @media screen and (max-width: 768px) {
   .project {
     align-items: flex-start;
