@@ -2560,6 +2560,50 @@ html.no-csstransitions .hero-content {
 }
 
 /* ------------------------------------------------------------------- 
+ * ## now position
+ * ------------------------------------------------------------------- */
+ .s-now {
+  background-color: #fff;
+  position: relative;
+}
+
+.s-now .right-vert-line {
+  background-color: #f14764;
+}
+
+.s-now__section--profile {
+  padding-top: 16rem;
+  padding-bottom: 4rem;
+  min-height: 80rem;
+  position: relative;
+}
+
+
+.s-now__section--profile::before {
+  content: "";
+  display: block;
+  background-color: #1c3234;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: calc(50% + 12vw);
+}
+
+.s-now__section--profile .row {
+  position: relative;
+}
+
+.s-now__section--profile .profile-pic {
+  width: 24vw;
+  position: absolute;
+  top: 8rem;
+  left: calc(50% + 80px);
+}
+
+
+
+/* ------------------------------------------------------------------- 
  * responsive:
  * about
  * ------------------------------------------------------------------- */
